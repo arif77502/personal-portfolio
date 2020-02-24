@@ -1,0 +1,139 @@
+/*----------------------------------Body------------------------------------*/
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+
+/*----------------------------------Top Section------------------------------------*/
+section{
+    height: 600px;
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(63, 62, 62);
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(175, 1, 102);
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    box-shadow: 0 0 10px rgb(175, 1, 102);
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.top-img img{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+}
+
+
+
+/*----------------------------------Biography Section------------------------------------*/
+.second-img img{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width1{
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 150px;
+    float: left;
+    margin-left: 5%;
+}
+
+
+
+
+/*----------------------------------Latest Work Section------------------------------------*/
+
+
+.lw{
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 70px;
+}
+.lw-img{
+    width: 100%;
+}
+.work1, .work2, .work3{
+    width: 25%;
+    box-shadow: 0 0 15px gray;
+    transition: all .5s;
+}
+.lw-img :first-child{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.lw-img :last-child{
+    margin-left: 5%;
+}
+.work1:hover {
+    transform: scale(1.1);
+}
+.work2:hover {
+    transform: scale(1.1);
+}
+.work3:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/*----------------------------------Footer Section------------------------------------*/
+.footer{
+    text-align: center;
+}
+.statement p{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+
+}
+.half-width2 h2{
+    margin-bottom: 70px;
+}
+.half-width2 p{
+    margin: 50px;
+    margin-bottom: 50px;
+}
+h3 span h5{
+    color: rgb(63, 62, 62);
+    margin-bottom: 50px;
+}
+
+.link{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    background-color: rgb(175, 1, 102);
+    color: white;
+    font-size: 15px;
+    margin-left: 30.2%;  
+}
+.link h4{
+    padding: 10%;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
