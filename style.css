@@ -2,17 +2,26 @@
 body{
     margin: 0 auto;
     padding: 0;
-    font-family: 'Raleway';
+    font-family: 'Archivo Black';
+    font-family: 'Michroma';
+    font-family: 'Muli';
 }
 
 
 /*----------------------------------Top Section------------------------------------*/
-section{
-    height: 600px;
-    margin-bottom: 70px;
+.wraper{
+    height: 800px;
+    margin-bottom: 50px;
 }
 h1{
     font-size: 50px;
+}
+span {
+    color: rgb(228, 0, 133);
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
 }
 p{
     font-size: 20px;
@@ -34,14 +43,15 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    padding-left: 120px;
+    padding-left: 200px;
     padding-top: 100px;
 }
 .top-img img{
-    width: 50%;
+    width: 45%;
     float: left;
-    margin-left: 2%;
 }
+
+
 
 
 
@@ -49,7 +59,7 @@ p{
 .second-img img{
     width: 35%;
     float: left;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 .half-width1{
     width: 40%;
@@ -61,25 +71,25 @@ p{
 
 
 
-
 /*----------------------------------Latest Work Section------------------------------------*/
 
 
 .lw{
     text-align: center;
-    margin-top: 400px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .lw-img{
     width: 100%;
+    margin-top: 5%;
 }
 .work1, .work2, .work3{
     width: 25%;
     box-shadow: 0 0 15px gray;
-    transition: all .5s;
+    transition: transform 1s ease;
 }
 .lw-img :first-child{
-    margin-left: 8%;
+    margin-left: 7.2%;
     margin-right: 5%;
 }
 .lw-img :last-child{
@@ -106,34 +116,88 @@ p{
     width: 40%;
     text-align: center;
     margin-left: 30%;
-
 }
 .half-width2 h2{
-    margin-bottom: 70px;
-}
-.half-width2 p{
-    margin: 50px;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
-h3 span h5{
+.half-width2 h3{
+    font-size: 25px;
+}
+
+.half-width2 h4{
     color: rgb(63, 62, 62);
-    margin-bottom: 50px;
+
 }
 
 .link{
     width: 40%;
     height: 30%;
     text-align: center;
-    background-color: rgb(175, 1, 102);
+    background-image: linear-gradient(hotpink, rgb(240, 20, 166));
     color: white;
     font-size: 15px;
-    margin-left: 30.2%;  
+    margin-left: 30.2%;
+    border-radius: 20px;
+    margin-top: 50px;
 }
 .link h4{
-    padding: 10%;
+    padding: 14%;
 }
 .link a{
     text-decoration: none;
     color: white;
     font-size: 30px;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/*----------------------------------Social Media Section------------------------------------*/
+ul{
+    position: relative;
+    display: flex;
+    margin-left: 31.5%;
+    padding-top: 10%;
+    
+}
+
+ul li {
+    list-style-type: none;
+    width: 100px;
+}
+
+ul li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 60%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+}
+
+ul li a:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+ul li a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 6px);
+    font-size: 24px;
+    color: #262626;
+    transition: .5s;
 }
